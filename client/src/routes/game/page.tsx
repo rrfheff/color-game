@@ -60,7 +60,7 @@ const Index = () => {
     setIsWaiting(true);
 
     const eventSource = new EventSource(
-      `http://localhost:8501/listen/${gameId}?userName=${playerName}`,
+      `http://www.w23kg7.top:8898/listen/${gameId}?userName=${playerName}`,
     );
     eventSource.onmessage = function (event) {
       if (event.data === "ready") {
@@ -219,7 +219,7 @@ const Index = () => {
 
   useEffect(() => {
     if (gamePhase === "gameOver" && gameId) {
-      fetch(`http://localhost:8501/record`, {
+      fetch(`http://www.w23kg7.top:8898/record`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

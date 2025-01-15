@@ -21,7 +21,7 @@ export default () => {
 
   const handleStartGame = async () => {
     try {
-      const response = await fetch('http://localhost:8501/start', {
+      const response = await fetch('http://www.w23kg7.top:8898/start', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -42,7 +42,7 @@ export default () => {
 
   const handleQueryScores = async () => {
     try {
-      const response = await fetch(`http://localhost:8501/scores/${gameIdQuery}`, {
+      const response = await fetch(`http://www.w23kg7.top:8898/scores/${gameIdQuery}`, {
         headers: generateAuthHeader({ gameId: gameIdQuery }),
       });
       const data = await response.json();
@@ -66,7 +66,7 @@ export default () => {
     }
 
     try {
-      const response = await fetch('http://localhost:8501/clear', {
+      const response = await fetch('http://www.w23kg7.top:8898/clear', {
         method: 'POST',
         headers: generateAuthHeader({}),
       });
