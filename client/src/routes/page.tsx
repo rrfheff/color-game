@@ -10,6 +10,10 @@ export default () => {
     navigate(`/game?gameId=${gameId}`);
   };
 
+  const handleOfflineGame = () => {
+    navigate('/game');
+  };
+
   return (
     <div className="prepare-page">
       <h1>Join Game</h1>
@@ -21,7 +25,8 @@ export default () => {
           placeholder="Enter Game ID"
           required
         />
-        <button type="submit">Join Game</button>
+        <button className="submit-button" type="submit">Join Game</button>
+        <button className="offline-button" onClick={handleOfflineGame}>Play Offline</button>
       </form>
     </div>
   );

@@ -45,7 +45,7 @@ body {
   font-size: 16px;
 }
 
-.prepare-page button {
+.prepare-page .submit-button {
   padding: 12px 20px;
   background-color: #007bff;
   color: white;
@@ -56,15 +56,15 @@ body {
   transition: background-color 0.2s;
 }
 
-.prepare-page button:hover {
+.prepare-page .submit-button:hover {
   background-color: #0056b3;
 }
 
-.prepare-page button[onClick] {
+.prepare-page .submit-button[onClick] {
   background-color: #dc3545;
 }
 
-.prepare-page button[onClick]:hover {
+.prepare-page .submit-button[onClick]:hover {
   background-color: #c82333;
 }
 
@@ -78,4 +78,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.prepare-page .offline-button {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.prepare-page .offline-button:hover {
+  background-color: #f0f0f0;
 }
