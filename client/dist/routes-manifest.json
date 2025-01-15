@@ -1,37 +1,65 @@
 {
   "routeAssets": {
+    "game/page": {
+      "chunkIds": [
+        "vendors-node_modules_pnpm_crypto-js_4_2_0_node_modules_crypto-js_index_js",
+        "game/page"
+      ],
+      "assets": [
+        "/static/js/async/vendors-node_modules_pnpm_crypto-js_4_2_0_node_modules_crypto-js_index_js.js",
+        "/static/js/async/game/page.js",
+        "/static/css/async/game/page.css"
+      ],
+      "referenceCssAssets": [
+        "/static/css/async/game/page.css"
+      ]
+    },
     "main": {
       "chunkIds": [
         "builder-runtime",
         "lib-react",
         "lib-polyfill",
         "lib-router",
-        "vendors-node_modules_pnpm_modern-js_runtime_2_63_6__types_react-dom_18_3_5__types_react_18_3_-2e2cc2",
+        "vendors-node_modules_pnpm_modern-js_runtime_2_63_6__types_react-dom_18_3_5__types_react_18_3_-24a5f5",
         "main"
       ],
       "assets": [
         "/static/js/builder-runtime.js",
-        "/builder-runtime.6a56c2fc09b97e5d.hot-update.js",
+        "/builder-runtime.b38ff8043ea821e0.hot-update.js",
         "/static/js/lib-react.js",
         "/static/js/lib-polyfill.js",
         "/static/js/lib-router.js",
-        "/static/js/vendors-node_modules_pnpm_modern-js_runtime_2_63_6__types_react-dom_18_3_5__types_react_18_3_-2e2cc2.js",
+        "/static/js/vendors-node_modules_pnpm_modern-js_runtime_2_63_6__types_react-dom_18_3_5__types_react_18_3_-24a5f5.js",
+        "/static/css/main.css",
         "/static/js/main.js"
       ],
-      "referenceCssAssets": []
+      "referenceCssAssets": [
+        "/static/css/main.css"
+      ]
+    },
+    "manage/page": {
+      "chunkIds": [
+        "vendors-node_modules_pnpm_crypto-js_4_2_0_node_modules_crypto-js_index_js",
+        "manage/page"
+      ],
+      "assets": [
+        "/static/js/async/vendors-node_modules_pnpm_crypto-js_4_2_0_node_modules_crypto-js_index_js.js",
+        "/static/js/async/manage/page.js",
+        "/static/css/async/manage/page.css",
+        "/manage/page.b38ff8043ea821e0.hot-update.js"
+      ],
+      "referenceCssAssets": [
+        "/static/css/async/manage/page.css"
+      ]
     },
     "page": {
       "chunkIds": [
         "page"
       ],
       "assets": [
-        "/page.6a56c2fc09b97e5d.hot-update.js",
-        "/static/js/async/page.js",
-        "/static/css/async/page.css"
+        "/static/js/async/page.js"
       ],
-      "referenceCssAssets": [
-        "/static/css/async/page.css"
-      ]
+      "referenceCssAssets": []
     }
   }
 }

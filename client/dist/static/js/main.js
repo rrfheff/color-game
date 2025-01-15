@@ -1,5 +1,33 @@
 "use strict";
 (self['webpackChunkclient'] = self['webpackChunkclient'] || []).push([["main"], {
+"./src/routes/index.css": (function (module, __webpack_exports__, __webpack_require__) {
+__webpack_require__.r(__webpack_exports__);
+// extracted by css-extract-rspack-plugin
+
+    if(true) {
+      (function() {
+        var localsJsonString = undefined;
+        // 1736956363014
+        var cssReload = (__webpack_require__("../node_modules/.pnpm/@rspack+core@1.1.8_@swc+helpers@0.5.15/node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
+        // only invalidate when locals change
+        if (
+          module.hot.data &&
+          module.hot.data.value &&
+          module.hot.data.value !== localsJsonString
+        ) {
+          module.hot.invalidate();
+        } else {
+          module.hot.accept();
+        }
+        module.hot.dispose(function(data) {
+          data.value = localsJsonString;
+          cssReload();
+        });
+      })();
+    }
+  
+
+}),
 "./src/modern.runtime.ts": (function (module, __webpack_exports__, __webpack_require__) {
 __webpack_require__.r(__webpack_exports__);
 /* ESM import */var _modern_js_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/.pnpm/@modern-js+runtime@2.63.6_@types+react-dom@18.3.5_@types+react@18.3.18__@types+react@18.3.18__rtkl5jnxdqmd2pgpn6gq735zbq/node_modules/@modern-js/runtime/dist/esm/core/config.js");
@@ -25,20 +53,22 @@ __webpack_require__.d(__webpack_exports__, {
   "default": function() { return Layout; }
 });
 /* ESM import */var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-dev-runtime.js");
-/* ESM import */var _modern_js_runtime_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("../node_modules/.pnpm/react-router@6.27.0_react@18.3.1/node_modules/react-router/dist/index.js");
+/* ESM import */var _modern_js_runtime_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("../node_modules/.pnpm/react-router@6.27.0_react@18.3.1/node_modules/react-router/dist/index.js");
+/* ESM import */var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./src/routes/index.css");
 /* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../node_modules/.pnpm/@rspack+plugin-react-refresh@1.0.1_react-refresh@0.16.0/node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+
 
 
 function Layout() {
     return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modern_js_runtime_router__WEBPACK_IMPORTED_MODULE_1__.Outlet, {}, void 0, false, {
+        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modern_js_runtime_router__WEBPACK_IMPORTED_MODULE_2__.Outlet, {}, void 0, false, {
             fileName: "/Users/ruofan.ruan/Desktop/projects/color-game/client/src/routes/layout.tsx",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "/Users/ruofan.ruan/Desktop/projects/color-game/client/src/routes/layout.tsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
@@ -912,7 +942,7 @@ window.__assetPrefix__ = '';
 
 },function(__webpack_require__) {
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId) }
-__webpack_require__.O(0, ["lib-polyfill","lib-react","lib-router","vendors-node_modules_pnpm_modern-js_runtime_2_63_6__types_react-dom_18_3_5__types_react_18_3_-2e2cc2",], function() {
+__webpack_require__.O(0, ["lib-polyfill","lib-react","lib-router","vendors-node_modules_pnpm_modern-js_runtime_2_63_6__types_react-dom_18_3_5__types_react_18_3_-24a5f5",], function() {
         return __webpack_exec__("../node_modules/.pnpm/@rspack+plugin-react-refresh@1.0.1_react-refresh@0.16.0/node_modules/@rspack/plugin-react-refresh/client/reactRefreshEntry.js"), __webpack_exec__("../node_modules/.pnpm/@rsbuild+core@1.1.13/node_modules/@rsbuild/core/dist/client/hmr.js"), __webpack_exec__("data:text/javascript,window.__assetPrefix__ = '';"), __webpack_exec__("data:text/javascript,import \"core-js\";"), __webpack_exec__("./node_modules/.modern-js/main/index.jsx");
       });
 var __webpack_exports__ = __webpack_require__.O();

@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  background: -moz-linear-gradient(top, transparent, #fff) #eceeef;
   background: linear-gradient(to bottom, transparent, #fff) #eceeef;
   height: 100vh;
   overflow: auto;
@@ -11,14 +12,20 @@ body {
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
 }
 
 .prepare-page {
+  display: -moz-box;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+       flex-direction: column;
+  -moz-box-align: center;
+       align-items: center;
+  -moz-box-pack: center;
+       justify-content: center;
   position: absolute;
   top: 30%;
   width: 100%;
@@ -31,8 +38,11 @@ body {
 }
 
 .prepare-page form {
+  display: -moz-box;
   display: flex;
-  flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+       flex-direction: column;
   gap: 15px;
   width: 100%;
   max-width: 300px;
@@ -53,6 +63,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
 
@@ -74,8 +85,15 @@ body {
 }
 
 .waiting-for-game {
+  display: -moz-box;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+       flex-direction: column;
+  -moz-box-align: center;
+       align-items: center;
+  -moz-box-pack: center;
+       justify-content: center;
 }
+
+/*# sourceMappingURL=main.css.map*/

@@ -153,7 +153,7 @@ __webpack_require__.hu = function (chunkId) {
 // webpack/runtime/get_full_hash
 !function() {
 __webpack_require__.h = function () {
-	return "a01e4360154e01a9";
+	return "f268d4575382fb73";
 };
 
 }();
@@ -756,7 +756,8 @@ var installedCssChunks = {
 
 __webpack_require__.f.miniCss = function(chunkId, promises) {
 	var cssChunks = {
-"page": 1,
+"manage/page": 1,
+"game/page": 1,
 
 };
 	if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId])
